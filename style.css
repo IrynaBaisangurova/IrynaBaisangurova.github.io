@@ -1,0 +1,125 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing:border-box;
+}
+.body{
+    font-family: 'Playfair Display', serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container__header, .menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.container__header{
+    margin: 50px auto;
+}
+
+.nav__li{
+    display: inline;
+}
+.nav__link{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin-right: 35px;
+    text-decoration: none;
+    color: #B8BECD;;
+    
+}
+.nav__link-active{
+    color: #202336
+}
+.button-container__button{
+    border: 1px solid #FB8F1D;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-size: 15px;
+    width: 133px;
+    height: 44px;
+    background: #FB8F1D;
+    color: white;
+}
+.button-container__button-transparent{
+    background: white  ;
+    color:  #FB8F1D;
+}
+.container__form{
+    display: flex;
+    justify-content: space-between;
+    }
+.block__img{
+    width: 577px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+    position: relative;
+    }
+.title__form{
+font-weight: bold;
+font-size: 48px;
+line-height: 70px;
+max-width: 247px;
+color: #000000;
+margin-bottom: 73px;
+}
+.form__input, .input__name{
+    width: 100%;
+}  
+.input__name{
+    /* width: 412px; */
+    padding: 20px 180px 20px 29px;
+    /* height: 59px; */
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+
+.input__name::placeholder{
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+}
+.button__form-submit{
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #1ABE84;
+    padding: 20px 45px;
+    border-radius: 20px;
+    border: none;  
+}
+.image__img__inscription{
+    margin-right: 55px;
+}
+.image__block{
+    display: flex;
+    margin-top: 114px;
+}
+.image__name{
+    font-weight: bold;
+font-size: 20px;
+color: #000000;
+padding: 20px 14px;
+margin-top: -70px;
+position:relative;
+}
+.image__name::after{
+    content:"Lorem ipsum";
+    padding: 20px 14px;
+    position: absolute;
+    width: 152px;
+    height: 68px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    margin-left:-135px;
+    margin-top: -21px;
+}
